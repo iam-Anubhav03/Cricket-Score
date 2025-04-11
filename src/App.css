@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.team {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 250px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #28a745;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.out {
+  background: red;
+}
+
+.switch {
+  background: orange;
+}
+
+.reset {
+  background: blue;
+}
